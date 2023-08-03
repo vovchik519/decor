@@ -1,0 +1,164 @@
+.payment {
+
+    // .payment__wrapper
+
+    &__wrapper {}
+
+    // .payment__title
+
+    &__title {
+        font-family: PT Serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    // .payment__wrap
+
+    &__wrap {
+        display: flex;
+    }
+
+    // .payment__left
+
+    &__left {}
+
+    // .payment__left-title
+
+    &__left-title {
+        font-family: PT Serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        margin-top: 65px;
+
+    }
+
+    // .payment__text
+
+    &__text {
+        font-family: PT Serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        margin-top: 23px;
+
+    }
+
+    // .payment__list
+
+    &__list {
+        margin-top: 22px;
+
+        font-family: PT Serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+
+        font-family: PT Serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    // .payment__item
+
+    &__item {
+
+        display: flex;
+        width: 557px;
+        margin-top: 23px;
+    }
+
+    .icon {
+        margin-right: 13px;
+        width: 32px;
+        height: 32px;
+    }
+
+    // .payment__button
+
+    &__button {
+        margin-top: 39px;
+    }
+
+    // .payment__right
+
+    &__right {
+        width: 517px;
+        height: 621px;
+    }
+
+    // .payment__bottom
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+    }
+
+    // .payment__bottom-left
+
+    &__bottom-left {}
+
+    // .payment__bottom-image
+
+    &__bottom-image {
+        width: 524px;
+        height: 395px;
+    }
+
+    // .payment__bottom-right
+
+    &__bottom-right {}
+
+    // .payment__bottom-title
+
+    &__bottom-title {
+        font-family: PT Serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    // .payment__bottom-text-wrap
+
+    &__bottom-text-wrap {
+        margin-top: 23px;
+        
+        width: 557px; 
+        height: 85px; 
+
+        top: 7542px; 
+        left: 736px;
+
+    }
+
+    // .payment__bottom-text
+
+    &__bottom-text {
+        font-family: PT Serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}
