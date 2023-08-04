@@ -1,0 +1,23 @@
+.about {
+
+    color: #515151;
+
+    //.about__wrapper
+
+    &__wrapper {}
+
+    //.about__title
+
+    &__title {
+        margin-top: 30px;
+
+        font-family: PT Serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+
+    }
+}
