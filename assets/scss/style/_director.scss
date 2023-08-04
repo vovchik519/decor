@@ -1,0 +1,44 @@
+.director {
+
+    &__title {
+        margin-top: 65px;
+
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &__wrapper {
+        margin-top: 94px;
+
+        display: flex;
+    }
+
+    &__image-wrap{
+        border: 30px solid #83CCFF66;
+        ;
+    }
+
+    &__info {
+        margin-left: 37px;
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    &__text{
+        margin-top: 30px;
+    }
+
+    .button{
+        margin-top: 33px;
+        margin-left: 243px;
+    }
+}

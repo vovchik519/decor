@@ -1,11 +1,18 @@
 .feedback {
-
-   
+    background: #83CCFF66;
+.container{
+    margin: 0;
+    padding: 0;
+}
     &__wrapper {
         display: flex;
+        margin-top: 65px;
     }
 
     &__title {
+
+        margin: 47px 9px 48px 147px;
+
         font-family: PT Serif;
         font-size: 30px;
         font-weight: 400;
@@ -14,4 +21,5 @@
         text-align: left;
 
     }
+
 }
