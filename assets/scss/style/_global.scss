@@ -74,6 +74,17 @@ h6 {
     font-weight: inherit;
     line-height: 1.3em;
 }
+h2 {
+    color: #515151;
+    font-family: PT Serif;
+    font-size: 30px;
+    max-width: 750px;
+}
+p,
+a,
+li {
+    line-height: 1.3em;
+}
 a {
     color: #515151;
 }
@@ -98,6 +109,6 @@ a {
     color: #fff;
     font-size: 20px;
 }
-.hidden{
+.hidden {
     display: none;
 }
