@@ -1,0 +1,133 @@
+.firstscreen {
+    background: linear-gradient(180deg, #e4f4ff 0%, #ceebff 100%);
+    padding: 44px 0 55px;
+    // .firstscreen__wrapper
+
+    &__wrapper {
+        position: relative;
+    }
+    // .firstscreen__top
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .firstscreen__left
+
+    &__left {
+        position: relative;
+        z-index: 1;
+    }
+
+    // .firstscreen__content
+
+    &__content {
+        max-width: 665px;
+    }
+
+    // .firstscreen__title
+
+    &__title {
+        font-size: 34px;
+        font-weight: 700;
+        strong {
+            color: #3875c9;
+        }
+    }
+
+    // .firstscreen__subtitle
+
+    &__subtitle {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+    &__subtitle-bottom {
+        color: #3875c9;
+        font-weight: 700;
+    }
+
+    // .firstscreen__button
+
+    &__button {
+        margin-top: 30px;
+    }
+    &__button-sale {
+        position: relative;
+    }
+    &__button-video {
+        position: relative;
+        max-width: none;
+        width: auto;
+        padding: 20px 15px 20px 73px;
+        font-size: 16px;
+        margin-left: 115px;
+        line-height: 1em;
+        .icon {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            left: -5px;
+            top: 0;
+        }
+    }
+
+    // .firstscreen__sale
+
+    &__sale {
+        position: absolute;
+        right: -65px;
+        top: -16px;
+    }
+
+    // .firstscreen__right
+
+    &__right {
+        position: relative;
+        img {
+            position: absolute;
+            top: 18px;
+            right: -126px;
+        }
+    }
+    // .firstscreen__list
+
+    &__bottom{
+        position: relative;
+        z-index: 1;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 45px;
+    }
+
+    // .firstscreen__item
+
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        max-width: 362px;
+        border: 1px solid #64bbf8;
+        background: #fff;
+        padding: 20px;
+        img {
+            max-width: 67px;
+        }
+    }
+
+    // .firstscreen__item-content
+
+    &__item-content {
+        margin-left: 15px;
+        h3 {
+            color: #515151;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        p{
+            margin-top: 5px;
+        }
+    }
+}
