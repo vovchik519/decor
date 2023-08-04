@@ -1,10 +1,8 @@
 .about {
 
-    color: #515151;
 
-    //.about__wrapper
 
-    &__wrapper {}
+  
 
     //.about__title
 
@@ -17,7 +15,36 @@
         line-height: 40px;
         letter-spacing: 0em;
         text-align: left;
-        
-
+        color: #515151;
     }
+      //.about__wrapper
+
+      &__wrapper {
+        display: flex;
+      }
+
+    //.about__left
+
+    &__left {}
+
+    //.about__right
+
+    &__right {
+        margin-left: 27px;
+    }
+
+    //.about__list
+
+    &__list {
+        font-family: PT Serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    //.about__item
+    &__item {}
+
 }
