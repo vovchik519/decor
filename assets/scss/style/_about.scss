@@ -21,6 +21,8 @@
 
       &__wrapper {
         display: flex;
+
+        margin-top: 60px;
       }
 
     //.about__left
@@ -42,9 +44,23 @@
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
+        color: #515151;
+     
+    }
+    .li{
+        list-style-type: disc;
+    }
+ 
+    //.about__item
+    &__item {
+        margin-top: 28px;
+    }
+    .button{
+        margin-top: 28px;
     }
 
-    //.about__item
-    &__item {}
+    &__img{
+        margin-top: 28px;
+    }
 
 }
