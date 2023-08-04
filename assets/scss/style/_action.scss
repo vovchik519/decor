@@ -5,6 +5,8 @@
 
     &__wrapper {
         display: flex;
+
+        padding-top: 85px;
     }
 
     //.action__left 
@@ -20,7 +22,9 @@
 
     //.action__right
 
-    &__right {}
+    &__right {
+        margin-left: 36px;
+    }
 
     //.action__suptitle
 

@@ -7,12 +7,17 @@
     // .payment__title
 
     &__title {
+
+        margin-top: 85px;
         font-family: PT Serif;
         font-size: 30px;
         font-weight: 400;
         line-height: 40px;
         letter-spacing: 0em;
         text-align: left;
+
+        color: #515151;
+
 
     }
 
@@ -38,6 +43,8 @@
 
         margin-top: 65px;
 
+        color: #515151;
+
     }
 
     // .payment__text
@@ -51,6 +58,8 @@
         text-align: left;
 
         margin-top: 23px;
+
+        color: #515151;
 
     }
 
@@ -72,6 +81,8 @@
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
+
+        color: #515151;
 
     }
 
@@ -101,6 +112,7 @@
     &__right {
         width: 517px;
         height: 621px;
+        margin-left: 80px;
     }
 
     // .payment__bottom
@@ -108,6 +120,8 @@
     &__bottom {
         display: flex;
         align-items: center;
+        background: #83CCFF66;
+
     }
 
     // .payment__bottom-left
@@ -123,7 +137,9 @@
 
     // .payment__bottom-right
 
-    &__bottom-right {}
+    &__bottom-right {
+        margin-left: 63px;
+    }
 
     // .payment__bottom-title
 
@@ -135,17 +151,19 @@
         letter-spacing: 0em;
         text-align: left;
 
+        color: #515151;
+
     }
 
     // .payment__bottom-text-wrap
 
     &__bottom-text-wrap {
         margin-top: 23px;
-        
-        width: 557px; 
-        height: 85px; 
 
-        top: 7542px; 
+        width: 557px;
+        height: 85px;
+
+        top: 7542px;
         left: 736px;
 
     }
@@ -159,6 +177,8 @@
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
+
+        color: #515151;
 
     }
 }
