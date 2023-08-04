@@ -1,6 +1,9 @@
 .feedback {
 
-    //.feedback__title
+   
+    &__wrapper {
+        display: flex;
+    }
 
     &__title {
         font-family: PT Serif;

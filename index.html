@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Decor Company</title>
     <link rel="stylesheet" href="./assets/css/style.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:regular,italic,700,700italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption:regular,italic" rel="stylesheet" />
 </head>
 
 <body>
@@ -19,15 +21,15 @@
                         <ul class="menu__list">
                             <li class="menu__item">
                                 <a href="#!" class="menu__link">Преимущества</a>
-                                <a href="#!" class="menu__link">Каталог</a>
-                                <a href="#!" class="menu__link">Наше производство</a>
-                                <a href="#!" class="menu__link">Доставка и оплата</a>
-                                <a href="#!" class="menu__link">Контакты</a>
                             </li>
+                            <li class="menu__item"><a href="#!" class="menu__link">Каталог</a></li>
+                            <li class="menu__item"><a href="#!" class="menu__link">Наше производство</a></li>
+                            <li class="menu__item"><a href="#!" class="menu__link">Доставка и оплата</a></li>
+                            <li class="menu__item"><a href="#!" class="menu__link">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="header__phone">
-                        <a href="tel:+77777777777">
+                        <a href="tel:+77777777777" class="header__phone-link">
                             <svg class="icon">
                                 <use xlink:href="./assets/icon/sprite.svg#icon-phone"></use>
                             </svg>
@@ -55,17 +57,18 @@
                                         интерьеров - от классики до
                                         современности.
                                     </p>
-                                    <p class="firstscreen__subtitle fisrtscreen__subtitle-bottom">
+                                    <p class="firstscreen__subtitle firstscreen__subtitle-bottom">
                                         Получите скидку 5% на покупку от
                                         25м²!
                                     </p>
                                 </div>
                                 <div class="firstscreen__button">
-                                    <button type="button" class="button">
-                                        <img src="" alt="" class="firstscreen__sale" />
+                                    <button type="button" class="button firstscreen__button-sale">
+                                        <img src="./assets/image/sale.svg" alt="изображение"
+                                            class="firstscreen__sale" />
                                         Оставить заявку
                                     </button>
-                                    <button type="button" class="button">
+                                    <button type="button" class="button firstscreen__button-video">
                                         <svg class="icon">
                                             <use xlink:href="./assets/icon/sprite.svg#icon-play"></use>
                                         </svg>
@@ -126,40 +129,41 @@
             </section>
             <section class="about">
                 <div class="container">
-                    <h2 class="about__title">
-                        Добро пожаловать в мир гипсовых 3D панелей Décor <br>
-                        Company в Алматы!
-                    </h2>
                     <div class="about__wrapper">
-                        
-                        <div class="about__left">
-                            <img src="./assets/image/about/Rectangle9.jpg" alt="изображение" />
-                        </div>
-                        <div class="about__right">
-                            <ul class="about__list">
-                                <li class="about__item">
-                                    Мы - компания Décor Company,
-                                    специализирующаяся на производстве
-                                    интерьерных 3D панелей и декоративных
-                                    элементов из гипса.
-                                </li>
-                                <li class="about__item">
-                                    Наша миссия - преобразовать обыденные
-                                    стены в уникальные произведения
-                                    искусства.
-                                </li>
-                                <li class="about__item">
-                                    Мы предлагаем разнообразные дизайны 3D
-                                    панелей для отделки стен в жилых,
-                                    офисных и общественных помещениях,
-                                    адаптируясь к любому стилю интерьера -
-                                    от классических до современных трендов.
-                                </li>
-                            </ul>
-                            <button type="button" class="button">
-                                Связаться с нами
-                            </button>
-                            <img class="about__img" src="./assets/image/about/Rectangle10.jpg" alt="изображение" />
+                        <h2 class="about__title">
+                            Добро пожаловать в мир гипсовых 3D панелей Décor
+                            Company в Алматы!
+                        </h2>
+                        <div class="about__wrap">
+                            <div class="about__left">
+                                <img src="./assets/image/about/Rectangle9.jpg" alt="изображение" />
+                            </div>
+                            <div class="about__right">
+                                <ol class="about__list">
+                                    <li class="about__item">
+                                        Мы - компания Décor Company,
+                                        специализирующаяся на производстве
+                                        интерьерных 3D панелей и декоративных
+                                        элементов из гипса.
+                                    </li>
+                                    <li class="about__item">
+                                        Наша миссия - преобразовать обыденные
+                                        стены в уникальные произведения
+                                        искусства.
+                                    </li>
+                                    <li class="about__item">
+                                        Мы предлагаем разнообразные дизайны 3D
+                                        панелей для отделки стен в жилых,
+                                        офисных и общественных помещениях,
+                                        адаптируясь к любому стилю интерьера -
+                                        от классических до современных трендов.
+                                    </li>
+                                </ol>
+                                <button type="button" class="button">
+                                    Связаться с нами
+                                </button>
+                                <img src="./assets/image/about/Rectangle10.jpg" alt="изображение" />
+                            </div>
                         </div>
                     </div>
                 </div>
