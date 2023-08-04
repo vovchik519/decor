@@ -1,0 +1,40 @@
+.answer {
+    margin-top: 85px;
+    // .answer__wrap
+
+    &__wrap {
+        margin-top: 65px;
+    }
+
+    // .answer__details
+
+    &__details:first-child{
+        margin-top: 0;
+    }
+    &__details {
+        margin-top: 17px;
+    }
+    
+    // .answer__summary
+    
+    &__summary {
+        padding: 25px 30px;
+        border: 1px solid #64BBF8;
+        font-size: 24px;
+    }
+
+    // .answer__text
+
+    &__text {
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+
+    // .answer__button
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 46px;
+    }
+}
