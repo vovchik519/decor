@@ -1,13 +1,12 @@
 .payment {
-
     // .payment__wrapper
 
-    &__wrapper {}
+    &__wrapper {
+    }
 
     // .payment__title
 
     &__title {
-
         margin-top: 85px;
         font-family: PT Serif;
         font-size: 30px;
@@ -17,8 +16,6 @@
         text-align: left;
 
         color: #515151;
-
-
     }
 
     // .payment__wrap
@@ -29,7 +26,8 @@
 
     // .payment__left
 
-    &__left {}
+    &__left {
+    }
 
     // .payment__left-title
 
@@ -44,7 +42,6 @@
         margin-top: 65px;
 
         color: #515151;
-
     }
 
     // .payment__text
@@ -60,7 +57,6 @@
         margin-top: 23px;
 
         color: #515151;
-
     }
 
     // .payment__list
@@ -83,13 +79,11 @@
         text-align: left;
 
         color: #515151;
-
     }
 
     // .payment__item
 
     &__item {
-
         display: flex;
         width: 557px;
         margin-top: 23px;
@@ -102,6 +96,9 @@
     }
 
     // .payment__button
+    &__item-text{
+        width: 100%;
+    }
 
     &__button {
         margin-top: 39px;
@@ -120,13 +117,13 @@
     &__bottom {
         display: flex;
         align-items: center;
-        background: #83CCFF66;
-
+        background: #83ccff66;
     }
 
     // .payment__bottom-left
 
-    &__bottom-left {}
+    &__bottom-left {
+    }
 
     // .payment__bottom-image
 
@@ -152,7 +149,6 @@
         text-align: left;
 
         color: #515151;
-
     }
 
     // .payment__bottom-text-wrap
@@ -165,7 +161,6 @@
 
         top: 7542px;
         left: 736px;
-
     }
 
     // .payment__bottom-text
@@ -179,6 +174,5 @@
         text-align: left;
 
         color: #515151;
-
     }
 }
