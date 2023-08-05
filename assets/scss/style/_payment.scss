@@ -8,11 +8,9 @@
 
     &__title {
         margin-top: 85px;
-        font-family: PT Serif;
         font-size: 30px;
-        font-weight: 400;
+
         line-height: 40px;
-        letter-spacing: 0em;
         text-align: left;
 
         color: #515151;
@@ -22,17 +20,19 @@
 
     &__wrap {
         display: flex;
+        justify-content: space-between;
     }
 
     // .payment__left
 
     &__left {
+        width: 48%;
+        padding-bottom: 60px;
     }
 
     // .payment__left-title
 
     &__left-title {
-        font-family: PT Serif;
         font-size: 24px;
         font-weight: 700;
         line-height: 32px;
@@ -47,9 +47,8 @@
     // .payment__text
 
     &__text {
-        font-family: PT Serif;
         font-size: 18px;
-        font-weight: 400;
+
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -64,16 +63,14 @@
     &__list {
         margin-top: 22px;
 
-        font-family: PT Serif;
         font-size: 16px;
         font-weight: 700;
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
 
-        font-family: PT Serif;
         font-size: 16px;
-        font-weight: 400;
+
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
@@ -85,7 +82,6 @@
 
     &__item {
         display: flex;
-        width: 557px;
         margin-top: 23px;
     }
 
@@ -96,83 +92,83 @@
     }
 
     // .payment__button
-    &__item-text{
+    &__item-text {
         width: 100%;
     }
 
     &__button {
+        display: flex;
+        justify-content: center;
         margin-top: 39px;
     }
 
     // .payment__right
 
     &__right {
-        width: 517px;
-        height: 621px;
-        margin-left: 80px;
+    width: 48%;
+        margin-left: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
     // .payment__bottom
 
     &__bottom {
+        background: #83ccff66;
+    }
+    &__bottom-wrap {
         display: flex;
         align-items: center;
-        background: #83ccff66;
+        justify-content: space-between;
     }
 
     // .payment__bottom-left
 
     &__bottom-left {
+        width: 48%;
     }
 
     // .payment__bottom-image
 
     &__bottom-image {
-        width: 524px;
-        height: 395px;
+        width: 100%;
+        height: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
     // .payment__bottom-right
 
     &__bottom-right {
-        margin-left: 63px;
+        width: 50%;
+        margin-left: 20px;
+        padding: 10px 0;
     }
 
     // .payment__bottom-title
 
     &__bottom-title {
-        font-family: PT Serif;
         font-size: 24px;
         font-weight: 700;
         line-height: 32px;
-        letter-spacing: 0em;
-        text-align: left;
-
-        color: #515151;
     }
 
     // .payment__bottom-text-wrap
 
     &__bottom-text-wrap {
+        display: flex;
         margin-top: 23px;
-
-        width: 557px;
-        height: 85px;
-
-        top: 7542px;
-        left: 736px;
     }
 
     // .payment__bottom-text
 
     &__bottom-text {
-        font-family: PT Serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 21px;
-        letter-spacing: 0em;
-        text-align: left;
-
-        color: #515151;
+        width: 100%;
     }
 }
