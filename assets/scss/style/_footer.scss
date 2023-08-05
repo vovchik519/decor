@@ -75,6 +75,7 @@
     //.footer__bottom
 
     &__bottom {
+        padding: 22px 147px 16px 146px;
         height: 63px;
         background: #d9d9d9;
     }
@@ -96,9 +97,20 @@
         color: #000;
     }
 
+   &__bottom-info__left{
+    padding-right: 106px;
+    
+   }
+
+  
+
     //.footer__right
 
     &__right {
         display: flex;
+    }
+
+    &__bottom-info{
+        padding-right: 41px;
     }
 }
