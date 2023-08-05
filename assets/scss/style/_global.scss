@@ -112,3 +112,9 @@ a {
 .hidden {
     display: none;
 }
+@media (max-width: 480) {
+    body,
+    html {
+        font-size: 14px;
+    }
+}
