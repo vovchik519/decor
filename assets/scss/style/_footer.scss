@@ -22,12 +22,21 @@
     //.footer__top-left
 
     &__top-left {
+<<<<<<< HEAD
         width: 48%;
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
+=======
+        padding-top: 40px;
+       
+    }
+    .img{
+        width: 557px;
+        height: 343px;
+>>>>>>> 73b135294143e54dd898f7d3a1321c54669d3034
     }
 
     //.footer__top-right
@@ -86,7 +95,12 @@
     //.footer__bottom
 
     &__bottom {
+<<<<<<< HEAD
         padding: 20px 0 16px;
+=======
+        padding: 22px 147px 16px 146px;
+        height: 63px;
+>>>>>>> 73b135294143e54dd898f7d3a1321c54669d3034
         background: #d9d9d9;
     }
     &__bottom-wrapper {
@@ -110,6 +124,13 @@
         }
     }
 
+   &__bottom-info__left{
+    padding-right: 106px;
+    
+   }
+
+  
+
     //.footer__right
 
     &__right {
@@ -119,4 +140,12 @@
             margin-right: 40px;
         }
     }
+<<<<<<< HEAD
 }
+=======
+
+    &__bottom-info{
+        padding-right: 41px;
+    }
+}
+>>>>>>> 73b135294143e54dd898f7d3a1321c54669d3034
