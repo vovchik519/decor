@@ -88,12 +88,14 @@
         img {
             position: absolute;
             top: 18px;
-            right: -126px;
+            right: -80px;
+            width: 517.057px;
+            height: auto;
         }
     }
     // .firstscreen__list
 
-    &__bottom{
+    &__bottom {
         position: relative;
         z-index: 1;
     }
@@ -128,8 +130,106 @@
             font-size: 18px;
             font-weight: 700;
         }
-        p{
+        p {
             margin-top: 5px;
         }
+    }
+}
+@media (max-width: 1360px) {
+    .firstscreen {
+        &__right {
+            img {
+                top: 18px;
+                right: 0;
+                width: 450px;
+            }
+        }
+        &__list {
+            justify-content: space-evenly;
+        }
+        &__item {
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (max-width: 1080px) {
+    .firstscreen {
+        &__right {
+            display: none;
+        }
+    }
+}
+@media (max-width: 780px) {
+    .firstscreen {
+        .button:last-child {
+            padding: 20px 15px 20px 73px;
+            margin-left: 70px;
+        }
+        &__button-sale {
+            padding: 20px 20px;
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .firstscreen {
+        .button:last-child {
+            padding: 20px 15px 20px 73px;
+            margin-left: 0;
+            margin-top: 50px;
+        }
+        &__button-sale {
+            padding: 24px 20px;
+            max-width: 375px;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .firstscreen {
+        .button:last-child {
+            padding: 20px 15px 20px 73px;
+            margin-left: 0;
+            margin-top: 50px;
+        }
+        &__button-sale {
+            padding: 24px 20px;
+            max-width: 81vw;
+            width: 100%;
+            img {
+                right: -12vw;
+                top: -3vw;
+                width: 27vw;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .firstscreen {
+        padding: 20px 0;
+    }
+    .firstscreen .button:last-child {
+        margin-top: 30px;
+    }
+    .firstscreen__button-sale {
+        padding: 16px 12px;
+        font-size: 16px;
+    }
+    .firstscreen__title {
+        font-size: 26px;
+    }
+    .firstscreen__subtitle {
+        font-size: 18px;
+    }
+    .firstscreen__item{
+        padding: 15px 10px;
+        img{
+            width: 15vw;
+        }
+    }
+    .firstscreen__item-content h3{
+        font-size: 20px;
     }
 }
