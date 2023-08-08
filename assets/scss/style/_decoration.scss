@@ -12,3 +12,8 @@
     left: 0;
 }
 // decor
+@media (max-width: 768px){
+    .decoration{
+        display: none;
+    }
+}
