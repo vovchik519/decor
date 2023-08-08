@@ -120,3 +120,11 @@
         }
     }
 }
+@media (max-width: 1024px) {
+    .footer__top-right {
+        width: calc(52% - 20px);
+    }
+}
+@media (max-width: 768px) {
+    
+}
