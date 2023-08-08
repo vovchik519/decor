@@ -36,3 +36,38 @@
         height: 36.81px;
     }
 }
+@media (max-width: 1024px) {
+    .feedback {
+        background: rgba(131, 204, 255, 0.4);
+        padding: 30px 0;
+        margin-top: 30px;
+        // .feedback__wrapper
+
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        // .feedback__title
+
+        &__title {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        // .feedback__button
+
+        &__button {
+            margin: 20px 0 0 0;
+        }
+        .icon {
+            margin-right: 23px;
+        }
+        .icon use {
+            width: 35px;
+            height: 36.81px;
+        }
+    }
+}

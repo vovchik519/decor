@@ -121,7 +121,7 @@
     // .step__download
 
     &__download {
-        a{
+        a {
             color: #3875c9;
             font-size: 20px;
             text-decoration-line: underline;
@@ -129,7 +129,47 @@
         margin-top: 30px;
         text-align: center;
     }
-    .button{
+    .button {
         margin-top: 20px;
+    }
+}
+@media (max-width: 1250px) {
+    .step__number {
+        display: none;
+    }
+    .step__wrapper {
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 768px) {
+    .step{
+        margin-top: 30px;
+    }
+    .step__wrapper {
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .step__col {
+        width: 100%;
+    }
+    .step__col:first-child{
+        margin-top: 20px;
+    }
+    .step__col:last-child{
+        margin-top: 0;
+    }
+    .step__download {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step__download .button {
+        margin-top: 25px;
+    }
+    .step__item{
+        margin-top: 20px;
+        padding: 10px 15px 20px;
     }
 }

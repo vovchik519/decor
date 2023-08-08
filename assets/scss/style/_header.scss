@@ -98,7 +98,7 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 /* Стили для бургер-меню на разрешениях меньше 1080px */
-@media screen and (max-width: 1080px) {
+@media (max-width: 1080px) {
     .burger-icon {
         display: flex;
     }
@@ -148,7 +148,7 @@
         }
     }
 }
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .header {
         padding: 4px 0;
         &__logo {

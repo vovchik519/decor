@@ -1,6 +1,6 @@
 .about {
     margin-top: 30px;
-    
+
     &__wrap {
         display: flex;
         justify-content: space-between;
@@ -11,7 +11,7 @@
     &__left {
         width: 49%;
         height: auto;
-        img{
+        img {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -26,8 +26,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 49%; 
-        img{
+        width: 49%;
+        img {
             width: 100%;
             height: 300px;
             object-fit: cover;
@@ -46,7 +46,7 @@
 
     // .about__item
 
-    &__item:first-child{
+    &__item:first-child {
         margin-top: 0;
     }
     &__item {
@@ -56,7 +56,71 @@
         margin-top: 20px;
         line-height: 1.4em;
     }
-    .button{
+    .button {
         margin-top: 28px;
+    }
+}
+@media (max-width: 768px) {
+    .about {
+        margin-top: 30px;
+
+        &__wrap {
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+        // .about__left
+
+        &__left {
+            width: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 5px;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        // .about__right
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            img {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                margin-top: 28px;
+                border-radius: 5px;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            }
+        }
+
+        // .about__list
+
+        &__list {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 20px;
+        }
+
+        // .about__item
+
+        &__item:first-child {
+            margin-top: 0;
+        }
+        &__item {
+            box-sizing: content-box;
+            list-style-type: disc;
+            margin-left: 2%;
+            margin-top: 20px;
+            line-height: 1.4em;
+        }
+        .button {
+            margin-top: 28px;
+        }
     }
 }
