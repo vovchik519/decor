@@ -100,10 +100,12 @@ section {
     height: 30px;
 }
 .container {
+    position: relative;
     max-width: 1184px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    z-index: 1;
 }
 .button {
     font-family: PT Serif Caption;

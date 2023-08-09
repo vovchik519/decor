@@ -19,18 +19,21 @@ window.addEventListener('scroll', () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const decoration = document.querySelector(".decoration");
-  const images = decoration.querySelectorAll("img");
+  const decorations = document.querySelectorAll(".decoration");
 
   function parallaxScroll() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    for (let i = 0; i < images.length; i++) {
-      const image = images[i];
-      const speed = parseFloat(image.getAttribute("data-speed")) || 0.2;
-      const translateY = -scrollTop * speed;
+    for (let i = 0; i < decorations.length; i++) {
+      const images = decorations[i].querySelectorAll("img");
 
-      image.style.transform = `translate3d(0, ${translateY}px, 0)`;
+      for (let j = 0; j < images.length; j++) {
+        const image = images[j];
+        const speed = parseFloat(image.getAttribute("data-speed")) || 0.2;
+        const translateY = -scrollTop * speed;
+
+        image.style.transform = `translate3d(0, ${translateY}px, 0)`;
+      }
     }
   }
 
