@@ -1,4 +1,5 @@
 .footer {
+    position: relative;
     margin-top: 50px;
     padding: 40px 0 0 0;
     background: #83ccff66;
@@ -35,6 +36,8 @@
     &__top-right {
         margin-left: 20px;
         width: 40%;
+        position: relative;
+        z-index: 1;
         .button {
             max-width: 375px;
             width: 100%;
