@@ -11,3 +11,8 @@
     top: -55px;
     left: 0;
 }
+@media (max-width: 768px){
+    .decoration{
+        display: none;
+    }
+}
