@@ -9,9 +9,11 @@
     // .step__wrapper
 
     &__wrapper {
+        position: relative;
         display: flex;
         justify-content: space-between;
         margin-top: 60px;
+        z-index: 1;
     }
 
     // .step__col
@@ -20,7 +22,6 @@
         width: 43%;
         display: flex;
         flex-direction: column;
-        z-index: 1;
     }
 
     &__col:last-child {
