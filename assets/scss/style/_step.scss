@@ -40,7 +40,9 @@
         margin-top: 72px;
         padding: 17px 30px 25px;
     }
-
+    &__item:hover &__number{
+        border: 10px solid #64bbf8;
+    }
     // .step__top
 
     &__top {
@@ -87,6 +89,7 @@
         border: 5px solid #64bbf8;
         color: #fff;
         box-shadow: 0px 0px 4px 6px #64bbf8;
+        transition: .3s;
     }
     &__col:first-child &__number::before {
         right: 100%;

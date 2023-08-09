@@ -45,6 +45,28 @@
         }
     }
 }
+.header.fixed {
+    position: fixed;
+    width: 100vw;
+    transform: translateY(-120%);
+    z-index: 5;
+    padding: 4px 0;
+    box-shadow: 0 0 7px 8px #e4f4ff;
+    animation: headerAnimation 0.3s ease-in-out forwards 0.1s;
+
+    .header__logo {
+        width: 70px;
+        height: auto;
+    }
+}
+@keyframes headerAnimation {
+    0% {
+        transform: translateY(-120%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 .menu {
     // .menu__list
 

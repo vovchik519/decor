@@ -1,6 +1,7 @@
 .decoration {
     img {
         position: absolute;
+        transform: translate3d(0, 0, 0);
     }
 }
 .decoration__img-1 {
@@ -11,8 +12,8 @@
     top: -55px;
     left: 0;
 }
-@media (max-width: 768px){
-    .decoration{
+@media (max-width: 768px) {
+    .decoration {
         display: none;
     }
 }
