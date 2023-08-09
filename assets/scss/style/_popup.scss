@@ -1,0 +1,58 @@
+.popup {
+    // position: fixed;
+    display: none;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(24, 24, 24, 0.4);
+    width: 100vw;
+    height: 100vw;
+    min-height: min-content;
+    overflow: scroll;
+    // .popup__wrapper
+
+    &__wrapper {
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        height: 100%;
+        max-height: 90vh;
+        overflow: auto;
+    }
+
+    // .popup__title
+
+    &__title {
+    }
+
+    // .popup__top
+
+    &__top {
+    }
+
+    // .popup__img-wrap
+
+    &__img-wrap {
+    }
+
+    // .popup__content
+
+    &__content {
+    }
+
+    // .popup__text
+
+    &__text {
+    }
+
+    // .popup__bottom
+
+    &__bottom {
+    }
+
+    // .popup__image
+
+    &__image {
+    }
+}
