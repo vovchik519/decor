@@ -3,6 +3,7 @@
     // .catalog__wrapper
 
     &__wrapper {
+        
     }
 
     // .catalog__title
@@ -16,6 +17,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 50px -15px -15px -15px;
+       
     }
 
     // .catalog__item
@@ -28,6 +30,7 @@
         border: 1px solid #64bbf8;
         background: #fff;
         margin: 21px 15px;
+        z-index: 1;
     }
 
     // .catalog__image
