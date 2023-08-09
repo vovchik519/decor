@@ -11,7 +11,47 @@
     top: -55px;
     left: 0;
 }
-// decor
+
+.decoration__img-3 {
+    top: 303px;
+    left: 0;
+  }
+
+.decoration__img-4 {
+    top: 365px;
+    right: 0;
+}
+
+.decoration__img-5 {
+    top: 52px;
+    left: 0;
+    z-index: -1;
+}
+
+.decoration__img-6 {
+    top: 298px;
+    left: 0;
+    z-index: -1;
+}
+.decoration__img-7{
+    top: 521px;
+    right: 0;
+    z-index: -1;
+}
+.decoration__img-8{
+    top: 364px;
+    left: 0;
+   
+}.decoration__img-9{
+    top: 309px;
+    right: 0;
+   
+}
+.decoration__img-10{
+    top: 777px;
+    right: 0;
+   
+}
 @media (max-width: 768px){
     .decoration{
         display: none;
